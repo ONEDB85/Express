@@ -1,0 +1,29 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ONEDB85/Express.git"
+  },
+  "author": "D'Lo B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ONEDB85/Express/issues"
+  },
+  "homepage": "https://github.com/ONEDB85/Express#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
